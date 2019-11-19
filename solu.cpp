@@ -32,7 +32,7 @@ double f0(double t, double x, double v)
 
 double f1(double t, double x, double v)
 {
-  return (-K/M)* pow(y0, Lmd);
+  return (-K/M)* pow(v, Lmd);
     
 }
 
